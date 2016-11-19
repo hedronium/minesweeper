@@ -1,0 +1,76 @@
+body {
+	padding: 0px;
+	margin: 0px;
+}
+#board {
+	border: 5px solid #525252;
+	border-spacing: 0px;
+}
+#board tr {
+	display: block;
+	margin: 0px;
+	padding: 0px;
+}
+#board td {
+	margin: 0px;
+	/*border-right: 3px solid #F0F0F0;*/
+	/*border-bottom: 3px solid #F0F0F0;*/
+	padding: 15px;
+	background-image: url('sprites/block.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+#board td.empty {
+	background-image: url('sprites/empty.png');
+}
+#board td.flagged {
+	background-image: url('sprites/flagged.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+#board td.mine {
+	background-image: url('sprites/mine.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+#board td.one {
+	background-image: url('sprites/one.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+#board td.two {
+	background-image: url('sprites/two.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+#board td.three {
+	background-image: url('sprites/three.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+#board td.four {
+	background-image: url('sprites/four.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+#board td.five {
+	background-image: url('sprites/five.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+#board td.six {
+	background-image: url('sprites/six.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+#board td.seven {
+	background-image: url('sprites/seven.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+#board td.eight {
+	background-image: url('sprites/eight.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
